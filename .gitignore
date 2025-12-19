@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Data directories
+Criminal_Face_DB/data/images/*
+Criminal_Face_DB/data/embeddings/*
+Criminal_Face_DB/data/logs/*
+
+# Keep directory structure
+!Criminal_Face_DB/data/images/.gitkeep
+!Criminal_Face_DB/data/embeddings/.gitkeep
+!Criminal_Face_DB/data/logs/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
