@@ -1,0 +1,110 @@
+/* Red/Dark theme styles for Criminal Face Database */
+
+/* Global dark background */
+body {
+    background-color: #1a0000;
+    color: #ffffff;
+}
+
+/* Main container */
+.main {
+    background-color: #1a0000;
+}
+
+/* Headers */
+h1, h2, h3 {
+    color: #ff3333 !important;
+    font-weight: bold;
+}
+
+/* Buttons */
+.stButton>button {
+    background-color: #cc0000;
+    color: white;
+    border: 2px solid #ff3333;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.stButton>button:hover {
+    background-color: #ff3333;
+    border-color: #ff6666;
+    transform: scale(1.05);
+}
+
+/* Input fields */
+.stTextInput>div>div>input,
+.stTextArea>div>div>textarea,
+.stSelectbox>div>div>select {
+    background-color: #2a0000;
+    color: #ffffff;
+    border: 1px solid #ff3333;
+    border-radius: 5px;
+}
+
+/* Cards/Containers */
+.css-1r6slb0, .css-12oz5g7 {
+    background-color: #2a0000;
+    border: 1px solid #ff3333;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Sidebar */
+.css-1d391kg {
+    background-color: #0d0000;
+}
+
+/* Metrics */
+.css-1xarl3l {
+    background-color: #2a0000;
+    border: 1px solid #ff3333;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* File uploader */
+.stFileUploader>div {
+    background-color: #2a0000;
+    border: 2px dashed #ff3333;
+    border-radius: 5px;
+}
+
+/* Alerts */
+.stAlert {
+    background-color: #2a0000;
+    border-left: 4px solid #ff3333;
+}
+
+/* Tables */
+.stDataFrame {
+    background-color: #2a0000;
+}
+
+table {
+    background-color: #2a0000 !important;
+    color: #ffffff !important;
+}
+
+thead tr th {
+    background-color: #cc0000 !important;
+    color: #ffffff !important;
+}
+
+tbody tr:hover {
+    background-color: #3a0000 !important;
+}
+
+/* Progress bar */
+.stProgress > div > div > div {
+    background-color: #ff3333;
+}
+
+/* Expander */
+.streamlit-expanderHeader {
+    background-color: #2a0000;
+    border: 1px solid #ff3333;
+    color: #ff3333 !important;
+}
