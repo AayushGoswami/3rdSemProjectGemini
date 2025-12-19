@@ -7,6 +7,7 @@ from pathlib import Path
 from datetime import datetime
 from PIL import Image
 import sys
+import pandas as pd
 
 # Add parent directory to path
 sys.path.append(str(Path(__file__).parent.parent))
@@ -204,8 +205,6 @@ elif page == "📋 View Database":
         
         if view_mode == "Table":
             # Create table data
-            import pandas as pd
-            
             table_data = []
             for c in criminals:
                 table_data.append({
