@@ -1,0 +1,29 @@
+/* Make the main title look more official */
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #ff4b4b;
+    border-bottom: 2px solid #ff4b4b;
+    padding-bottom: 10px;
+}
+
+/* Style the sidebar */
+[data-testid="stSidebar"] {
+    background-color: #1a1c24;
+}
+
+/* Custom Alert Box for Matches */
+.match-alert {
+    padding: 20px;
+    background-color: #4a0f0f;
+    color: white;
+    border: 2px solid red;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% { opacity: 0; }
+}

@@ -1,0 +1,23 @@
+# Web Framework
+streamlit
+
+# Face Recognition & Computer Vision
+face_recognition
+opencv-python-headless
+
+# Image Processing
+Pillow
+
+# Numerical Computing
+numpy
+scipy
+
+# Database
+sqlite3-python
+
+# Testing
+pytest
+pytest-cov
+
+# Utilities
+python-dotenv
